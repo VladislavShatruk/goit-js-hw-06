@@ -1,36 +1,44 @@
-// const customer = {
-//    username: "Mango",
-//    balance: 24000,
-//    discount: 0.1,
-//    orders: ["Burger", "Pizza", "Salad"],
-//    // Change code below this line
+console.log("task-1");
+console.log("");
 
-//    getBalance() {
-//      return this.balance;
-//    },
 
-//    getDiscount() {
-//      return this.discount;
-//    },
+const customer = {
+   username: "Mango",
+   balance: 24000,
+   discount: 0.1,
+   orders: ["Burger", "Pizza", "Salad"],
+   // Change code below this line
 
-//    setDiscount(value) {
-//      this.discount = value;
-//    },
+   getBalance() {
+     return this.balance;
+   },
 
-//    getOrders() {
-//      return this.orders;
-//    },
+   getDiscount() {
+     return this.discount;
+   },
 
-//    addOrder(cost, order) {
-//      this.balance -= cost - cost * this.discount;
-//      this.orders.push(order);
-//    },
+   setDiscount(value) {
+     this.discount = value;
+   },
 
-//    // Change code above this line
-//  };
+   getOrders() {
+     return this.orders;
+   },
+
+   addOrder(cost, order) {
+     this.balance -= cost - cost * this.discount;
+     this.orders.push(order);
+   },
+
+   // Change code above this line
+ };
  
-//  customer.setDiscount(0.15);
-//  console.log(customer.getDiscount()); // 0.15
-//  customer.addOrder(5000, "Steak");
-//  console.log(customer.getBalance()); // 19750
-//  console.log(customer.getOrders()); // ["Burger", "Pizza", "Salad", "Steak"]
+ customer.setDiscount(0.15);
+ console.log(customer.getDiscount()); // 0.15
+ customer.addOrder(5000, "Steak");
+ console.log(customer.getBalance()); // 19750
+ console.log(customer.getOrders()); // ["Burger", "Pizza", "Salad", "Steak"]
+
+
+console.log("");
+console.log("");

@@ -1,3 +1,7 @@
+console.log("task-3");
+console.log("");
+
+
 class StringBuilder {
     initialValue;
     #value = this.initialValue;
@@ -36,3 +40,6 @@ builder.padEnd("^");
 console.log(builder.getValue()); // "^.^"
 builder.padBoth("=");
 console.log(builder.getValue()); // "=^.^="
+
+
+console.log("");
